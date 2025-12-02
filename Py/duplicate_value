@@ -1,0 +1,7 @@
+sample = input()
+result=""
+for i in sample:
+    if i not in result:
+        result+=i  
+print(result)
+        
